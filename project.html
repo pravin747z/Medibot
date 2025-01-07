@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create Your Own Chatbot</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<body>
+  <div class="card">
+    <div id="header">
+      <h1>MediBot!</h1>
+    </div>
+      <div class = "voice_recognition" >
+        <button onclick="startVoiceRecognition()">
+          <img src="microphone.png" alt="Microphone">
+        </button>
+      </div>
+    <div id="message-section">
+      <div class="message" id="bot"><span id="bot-response">Hello.. I'm Medibot!I will give some medical instructions and general medicines .It's a reference only.Kindly consult your doctor</span></div>
+    </div>
+    <div id="input-section">
+      <input id="input" type="text" placeholder="Type a message" autocomplete="off" autofocus="autofocus"/>
+      <button class="send" onclick="sendMessage()">
+        <div class="circle"><i class="zmdi zmdi-mail-send"></i></div>
+      </button>
+    </div>
+  </div> 
+  <script src="project.js"></script>
+</body>
+</html>
